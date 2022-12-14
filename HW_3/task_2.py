@@ -13,3 +13,13 @@
 [2, 3, 5, 6]
 [12, 15]
 """
+
+import random
+n = int(input("ВВедите число n "))
+spisok = [random.randint (0, n) for i in range (n)]
+print(spisok)
+
+new_spisok =[]
+for i in range(0, (n + 1 // 2 )):
+    new_spisok.appaned(spisok[i] * spisok [-i-1])
+print(new_spisok)
