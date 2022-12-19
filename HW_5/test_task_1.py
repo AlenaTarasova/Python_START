@@ -1,6 +1,7 @@
 import unittest
 
-from task_1 import < 'Ваша функция по удалению слов' > as target
+from task_1 import < str = str(input("ВВедите слова: "))
+print(str.translate({ord(i): None for i in 'абв'})) > as target
 
 
 # Класс с тестами
