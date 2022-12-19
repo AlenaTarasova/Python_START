@@ -6,3 +6,8 @@
 Ввод: значение типа <str>
 Вывод: значение числового типа данных
 """
+
+test_str =str("45 + 10 * 2 - (6 + 9 / 3)")
+print(test_str) 
+res = eval(test_str)
+print(res)
